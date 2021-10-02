@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Toggle Friend Activity Panel",
+    "description": "Spicetify extension to hide/show friend activity panel",
+    "preview": "toggleFriendActivity/toggleFriendActivity.png",
+    "main": "toggleFriendActivity/toggleFriendActivity.js"
+  }
+]
