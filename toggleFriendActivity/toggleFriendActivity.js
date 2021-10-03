@@ -1,6 +1,6 @@
 // @ts-check
 // NAME: toggleFriendActivity
-// AUTHOR: TheGeeKing
+// AUTHOR: MMA | TheGeeKing
 // VERSION: 1.0
 // DESCRIPTION: Toggle(Show/Hide) Friend Activity Tab
 
@@ -16,10 +16,10 @@
   }, 0);
   
   function startUp(){
-    if (Spicetify.LocalStorage.get("activity") == null){
-      Spicetify.LocalStorage.set("activity", "1");
+    if (Spicetify.LocalStorage.get("toggleFriendActivity_activity") == null){
+      Spicetify.LocalStorage.set("toggleFriendActivity_activity", "1");
     }
-    if(Spicetify.LocalStorage.get("activity")=="0"){
+    if(Spicetify.LocalStorage.get("toggleFriendActivity_activity")=="0"){
       document.getElementsByClassName("main-buddyFeed-buddyFeedRoot")[0].style.display = "none";
       document.getElementsByClassName("main-userWidget-box")[0].style.right = "120px";
     }
@@ -28,10 +28,10 @@
   function toggleFriendActivity() {
     document.getElementsByClassName("main-buddyFeed-buddyFeedRoot")[0].style.display = document.getElementsByClassName("main-buddyFeed-buddyFeedRoot")[0].style.display === "none" ? "" : "none";
     document.getElementsByClassName("main-userWidget-box")[0].style.right = document.getElementsByClassName("main-userWidget-box")[0].style.right === "120px" ? "" : "120px";
-    if(Spicetify.LocalStorage.get("activity")=="0"){
-      Spicetify.LocalStorage.set("activity", "1");
+    if(Spicetify.LocalStorage.get("toggleFriendActivity_activity")=="0"){
+      Spicetify.LocalStorage.set("toggleFriendActivity_activity", "1");
     } else {
-      Spicetify.LocalStorage.set("activity", "0");
+      Spicetify.LocalStorage.set("toggleFriendActivity_activity", "0");
     }
 
   }

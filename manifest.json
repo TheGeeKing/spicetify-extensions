@@ -4,5 +4,11 @@
     "description": "Spicetify extension to hide/show friend activity panel",
     "preview": "toggleFriendActivity/toggleFriendActivity.png",
     "main": "toggleFriendActivity/toggleFriendActivity.js"
+  },
+  {
+    "name": "Toggle Lyrics Plus Fullscreen",
+    "description": "Spicetify extension to toggle Lyrics Plus in fullscreen",
+    "preview": "toggleLyricsPlusFullscreen/toggleLyricsPlusFullscreen.png",
+    "main": "toggleLyricsPlusFullscreen/toggleLyricsPlusFullscreen.js"
   }
 ]
