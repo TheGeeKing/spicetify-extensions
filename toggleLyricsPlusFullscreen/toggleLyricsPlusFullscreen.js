@@ -20,7 +20,7 @@
   
   // UI Text
   const BUTTON_NAME_TEXT = "Toggle Fullscreen for Lyrics Plus";
-  const BUTTON_ICON = `<p style="font-size:8px">LPF</p>`
+  const BUTTON_ICON = `<p style="font-size:14px">LPF</p>`
   new Spicetify.Topbar.Button(
     BUTTON_NAME_TEXT,
     BUTTON_ICON,

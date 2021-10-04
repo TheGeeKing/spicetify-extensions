@@ -10,5 +10,11 @@
     "description": "Spicetify extension to toggle Lyrics Plus in fullscreen",
     "preview": "toggleLyricsPlusFullscreen/toggleLyricsPlusFullscreen.png",
     "main": "toggleLyricsPlusFullscreen/toggleLyricsPlusFullscreen.js"
+  },
+  {
+    "name": "Enable Restricted Songs",
+    "description": "Spicetify extension to enable restricted songs",
+    "preview": "enableRestrictedSongs/enableRestrictedSongs.png",
+    "main": "enableRestrictedSongs/enableRestrictedSongs.js"
   }
 ]
